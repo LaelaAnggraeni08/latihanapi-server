@@ -13,7 +13,7 @@ $id = mysqli_real_escape_string($db,$_GET['id']);
 
 //buat query
 $sql = "SELECT * FROM dataku WHERE id=$id";
-$query = mysqli_query($db, $sql);
+$query = mysqli_query($db,$sql);
 $editdata = mysqli_fetch_assoc($query);
 
 // cek jika edit tidak ditemukan
