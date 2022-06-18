@@ -17,8 +17,8 @@ $query = mysqli_query($db, $sql);
 $editdata = mysqli_fetch_assoc($query);
 
 // cek jika edit tidak ditemukan
-if(mysqli_num_rows($query) < 1){
-    die("Data tidak ditemukan");
+if(mysqli_num_rows($query) < 1) {
+  die("Data tidak ditemukan");
 }
 
 ?>
