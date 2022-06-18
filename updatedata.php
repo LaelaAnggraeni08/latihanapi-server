@@ -96,5 +96,4 @@ if (isset($_POST['ubah_foto'])) {
 <?php
 	}
 }
-
 ?>
