@@ -9,7 +9,7 @@ if(!isset($_GET['id'])){
 }
 
 //ambil id dari query
-$id = mysqli_real_escape_string($db,$_GET['id']);
+$id = mysqli_real_escape_string($db, $_GET['id']);
 
 //buat query
 $sql = "SELECT * FROM dataku WHERE id=$id";
