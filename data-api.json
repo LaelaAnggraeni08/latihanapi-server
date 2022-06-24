@@ -4,5 +4,11 @@
         "gambar": "http:\/\/localhost\/latihanapi-server\/img\/cake.jpeg",
         "judul": "Cake",
         "deskripsi": "Strowberry cake"
+    },
+    {
+        "id": "3",
+        "gambar": "http:\/\/localhost\/latihanapi-server\/img\/18062022052210byurger.jpg",
+        "judul": "Burger",
+        "deskripsi": "Burger enakk"
     }
 ]
